@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-current_dir=$(pwd)
+current_dir=$(pwd -P)
 echo "Current working directory: $current_dir"
