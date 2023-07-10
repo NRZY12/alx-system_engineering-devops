@@ -5,3 +5,5 @@ This repository contains the code and exercises for the ALX System Engineering a
 ## Directory Structure
 
 - `0x00-shell_basics`: Introduction to shell basics and scripting.
+- `0x01-shell_basics`: Introduction to shell basics and scripting.
+- `0x02-shell_basics`: Introduction to shell basics and scripting.
