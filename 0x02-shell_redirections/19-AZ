@@ -1,0 +1,4 @@
+#!/bin/bash
+input_string = "A cat is sitting on the mat."
+output_string = input_string.replace('A', 'Z').replace('c', 'e')
+print(output_string)

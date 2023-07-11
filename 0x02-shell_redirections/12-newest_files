@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -lt | grep '^-' | awf '{print $NF}' | head -n 10

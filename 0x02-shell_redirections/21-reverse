@@ -1,0 +1,4 @@
+#!/bin/bash
+input_string = input("Enter a string: ")
+output_string = input_string[::-1]
+print(output_string)
