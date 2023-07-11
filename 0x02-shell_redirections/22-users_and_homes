@@ -1,12 +1,2 @@
 #!/bin/bash
-import pwd
-
-# Get user information from the /etc/passwd file
-users = pwd.getpwall()
-
-# Sort the users by username
-users_sorted = sorted(users, key=lambda x: x.pw_name)
-
-# Display the username and home directory for each user
-for user in users_sorted:
-    print(f"Username: {user.pw_name}\t Home Directory: {user.pw_dir}")
+cut -d : -f 1,6 /etc/passwd | sort

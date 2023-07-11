@@ -1,4 +1,2 @@
 #!/bin/bash
-input_string = input("Enter a string: ")
-output_string = ''.join(char for char in input_string if char not in ('c', 'C'))
-print(output_string)
+tr -d cC
