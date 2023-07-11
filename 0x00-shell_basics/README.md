@@ -1,6 +1,6 @@
 # alx-system_engineering-devops
 
-This repository contains the code and exercises for the ALX System Engineering and DevOps program. It covers various topics and concepts related to shell scripting, system administration, and DevOps practices.
+This directory contains the project:
 
 ## Directory Structure
 
